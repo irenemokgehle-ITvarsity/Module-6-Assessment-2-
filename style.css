@@ -1,0 +1,213 @@
+.html{
+    height: 100%
+}
+
+.body{
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+        
+    }
+.body-home{
+    background-image: url(images/background%20car.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   
+.body-vehicles{
+    background-image: url(images/background%20car.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/*==========header==========*/
+
+.header{
+    background-color: darkturquoise; 
+    
+    width: 100%;
+    height: 50px;
+    top:0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;   
+}
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: aqua;   
+}
+.header img{
+    width: 50px;
+    padding-top: 20px;
+    padding-right: 25px;  
+}
+/*==========home page==========*/
+
+#home-logo-img{
+    width: 250px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+
+}
+#home-logo-text{
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+/*========home page vehicles==========*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: aqua;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%; 
+    }
+/*==========vehicles page==========*/
+
+#vehices{
+ padding-top: 50px;   
+}
+ 
+/*========vehicles page items==========*/
+.vehicles-list a {
+    text-decoration: none;
+        
+}
+.vehicles-list-item {
+    border: 5px solid white;
+    margin: 10px;
+}
+
+.vehicles-list-item h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: blue;
+    padding-left: 10px;   
+}
+.vehicles-list-item i{
+    float: right;
+    color: blue;
+    padding-right: 10px;   
+}
+.vehicles-list-item p {
+  font-size: 15px;
+    font-style: italic;
+    color: aqua;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+/*=========model page==========*/
+#model{
+    padding-top: 50px;
+}
+/*=========model details==========*/
+.model-details img{
+    width: 100%;  
+}
+.model-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid white;
+    margin: 10px;
+    padding: 5px; 
+    color: blue;
+}
+.model-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px; 
+     color: blue;
+}
+.model-details-info{
+    margin-left: 25px;
+    margin-right: 25px; 
+    color: blue;
+} 
+.model-details-info p{
+    font-size: 13px;
+    display: inline-block;
+    color: blue;
+}
+. model-details-discription label{
+    line-height: 25px;
+    margin-left: 10px;
+    color: blue;
+}
+.model-details-discription{
+    color: blue;
+}
+.model-details-discription{
+    padding-top: 20px; 
+    color: blue;
+}
+.model-details-discription p{
+    padding-left: 28px;
+    color: blue;
+}
+/*=========responsive layout==========*/
+@media only screen and (min-width:600px){
+    #vehicles{
+        width: 60%;
+        margin: auto;
+    }
+    #model{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width:1000px){
+    #vehicles{
+        width: 40%;
+        margin: auto;
+    }
+    #model{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width:720px){
+    .body-home{
+        background-image: url(images/background%20car.jpg);
+    }
+    .body-vehicles{
+        background-image: url(images/background%20car.jpg);
+    }
+.body-vehicles{
+        background-image: url(images/veg%20snack.jpg)
+}
+.button{
+    display: block;
+    border-image-repeat: repeat;
+    text-align: center;
+    color: white;
+    font-style: oblique;
+    background-color: aqua;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 12px;
+    padding: 8px 0;
+    
+}
