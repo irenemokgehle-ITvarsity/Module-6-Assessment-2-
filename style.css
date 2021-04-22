@@ -17,6 +17,10 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+.body-home p{
+    color: #ffffff;
 }
    
 .body-vehicles{
